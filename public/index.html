@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1 style="font-size: 32px;">Employee Contact Form</h1>
+      </header>
+      <form action="/register-employee" autocomplete="off" method="post">
+        <div class="content">
+          <div class="inputgroup">
+            <div class="label-group">
+              <label for="full-name">Employee Full Name</label>
+            </div>
+            <input type="text" name="fullName" id="" placeholder="Enter your full name" required/>
+          </div>
+          <div class="inputgroup">
+            <div class="label-group">
+              <label for="job-title">Job Title</label>
+            </div>
+            <input type="text" name="jobTitle" id="" placeholder="Enter your job title" required/>
+          </div>
+          <div class="inputgroup">
+            <div class="label-group">
+              <label for="Phone-number">Phone Number</label>
+            </div>
+            <input type="number" name="PhoneNumber" id="" placeholder="023456789"/>
+          </div>
+          <div class="inputgroup">
+            <div class="label-group">
+              <label for="email">Email</label>
+            </div>
+            <input type="email" name="email" id="" placeholder="Enter your email"/>
+          </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="address">Address</label>
+            </div> <br>
+            <textarea name="address" id="" cols="30" rows="3" placeholder="Enter your address here"></textarea>
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="city">city</label>
+            </div>
+            <input type="text" name="city" id="" placeholder="Enter your city" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="state">State</label>
+            </div>
+            <input type="text" name="state" id="" placeholder="Enter your state" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="primary-emergency-contact">Primary Emergency Contact</label>
+            </div>
+            <input type="text" name="primaryEmergencyContact" id="" placeholder="jane doe" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="Phone Number">Phone Number</label>
+            </div>
+            <input type="number" name="primaryEmergencyPhoneNumber" id="" placeholder="0123456789" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="relationship">Relationship</label>
+            </div>
+            <input type="text" name="relationship1" id="" placeholder="Enter your relation here" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="secondary-emergency-contact">Secondary Emergency Contact</label>
+            </div>
+            <input type="text" name="secondaryEmergencyContact" id="" placeholder="jane doe" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="phone-number">Phone Number</label>
+            </div>
+            <input type="number" name="secondaryEmergencyPhoneNumber" id="" placeholder="0123456789" />
+        </div>
+        <div class="inputgroup">
+            <div class="label-group">
+                <label for="relationship">Relationship</label>
+            </div>
+            <input type="text" name="relationship2" id="" placeholder="Enter your relation here" />
+        </div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
